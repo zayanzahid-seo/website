@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rizwa Beauty Hub</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff8fa;
+    color: #49333b;
+}
+
+header {
+    background: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 12px #e8cbd5;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    color: #c05280;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #49333b;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c05280;
+}
+
+.hero {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ffe1ec, #fff6f8);
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #b74776;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #c05280;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #96385e;
+}
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+h2 {
+    color: #b74776;
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px #efd5df;
+    padding-bottom: 25px;
+}
+
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 18px 0 10px;
+    color: #b74776;
+}
+
+.card p {
+    margin: 0 12px 15px;
+}
+
+.about {
+    background: #ffeaf1;
+    line-height: 1.8;
+}
+
+.contact p {
+    margin: 15px;
+}
+
+footer {
+    background: #b74776;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+@media(max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 6px;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Rizwa Beauty Hub</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div>
+        <h1>Welcome to Rizwa Beauty Hub</h1>
+        <p>Discover Your Beauty, Shine With Confidence!</p>
+        <a href="#products" class="btn">Explore Products</a>
+    </div>
+</section>
+
+<section id="products">
+    <h2>Our Beauty Collection</h2>
+
+    <div class="products">
+
+        <div class="card">
+    <img src="blush,image.jpg.jpg" alt="">
+            <h3>Makeup Collection</h3>
+            <p>Discover your perfect makeup look.</p>
+            <a href="#contact" class="btn">Order Now</a>
+        </div>
+
+        <div class="card">
+            <img src="nailpaint.jpg.jpg" alt="">
+            <h3>Skincare Products</h3>
+            <p>Care for your skin and glow every day.</p>
+            <a href="#contact" class="btn">Order Now</a>
+        </div>
+
+        <div class="card">com/phot
+            <img src="icecrem,gloos.jpg.jpg" alt="">
+            <h3>Perfumes</h3>
+            <p>Find a fragrance that matches your style.</p>
+            <a href="#contact" class="btn">Order Now</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About Rizwa Beauty Hub</h2>
+    <p>
+        Welcome to Rizwa Beauty Hub, your destination
+        for beauty, skincare and cosmetics.
+        Our goal is to help everyone feel beautiful,
+        confident and special.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Want to order or ask a question?</p>
+    <p>We would love to hear from you!</p>
+
+    <!-- Replace 923001234567 with your WhatsApp number -->
+    <a class="btn"
+       href="https://wa.me/923146412075"
+       target="_blank">
+       Chat on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Rizwa Beauty Hub. All Rights Reserved.</p>
+    <p>Beauty • Confidence • Elegance</p>
+</footer>
+
+</body>
+</html>
